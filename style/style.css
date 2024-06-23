@@ -116,7 +116,7 @@ section {
     display: block;
 }
 
-#direito {
+#white-gray-container {
     background-color: #FFFFFF;
     height: 450px;
     width: 400px;
@@ -124,13 +124,14 @@ section {
 }
 
 
-.info {
+.individual-containers{
     display: block;
     background-color: var(--background);
+    width: 380px;
     padding: 10px;
 }
 
-.info h3 {
+.individual-containers h3 {
     display: inline-flex;
     align-items: center;
     padding: 10px;
@@ -138,7 +139,7 @@ section {
 }
 
 
-.info p {
+.individual-containers p {
     display: block;
     font-family: var(--font);
     font-size: 18px;
@@ -169,7 +170,7 @@ section {
 }
 
 
-.icon {
+.icon-container {
     height: 38px;
     padding: 10px;
 }
