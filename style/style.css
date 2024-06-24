@@ -177,8 +177,9 @@ section {
 
 #title {
     margin-right: 57px;
-    margin-top: 160px;
-    font-size: 1.2em;
+    margin-left: 236px;
+    margin-top: 163px;
+    font-size: 1.5em;
 }
 
 footer {
@@ -189,5 +190,112 @@ footer {
 footer p {
     font-family: var(--font);
     text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        margin: 0px 20px 10px 20px;
+    }
+
+   section {
+    display: block;
+    
+   }
+
+   #nimbus-stark { 
+    display: block;
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 300px;
+    padding: 40px;
+    }
+
+    #nimbus-stark h2 {
+        font-family: var(--font);
+        font-size: 2em;
+        text-align: center;
+    }
+
+    #nimbus-stark p {
+        text-align: justify;
+    }
+
+    #nimbus-stark a {
+        font-family: var(--font);
+        background-color: var(--red);
+        color: #FFFFFF;
+        display: block;
+        margin: auto;
+        width: 80px;
+        text-align: center;
+    }
+
+    #horizontal-red-line {
+        margin-left: -95px;
+    }
+
+    picture > img {
+        display: block;
+        margin: auto;
+        height: 255px;
+        width: 358px;
+        padding-top: 20px;
+    }
+
+    #benefits {
+        display: block;
+    }
+
+    #title{
+        font-size: 1.3em;
+        text-align: center;
+        margin: auto;
+    }
+
+    #white-gray-container {
+        height: 570px;
+        margin-top: 40px;
+    } 
+
+    .individual-containers h3 {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 1.3em;
+        font-family: var(--font);
+    }
+
+    .individual-containers p {
+        display: block;
+        font-family: var(--font);
+        font-size: 1.5em;
+        padding-left: 70px;
+        padding-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    #special-background h3 {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 1.3em;
+        font-family: var(--font);
+    }
+
+    #special-background p {
+        display: block;
+        font-family: var(--font);
+        font-size: 1.5em;
+        padding-left: 70px;
+        padding-bottom: 20px;
+        margin-top: -10px;
+    }
+
 }
 
